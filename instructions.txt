@@ -1,0 +1,2 @@
+syntax:
+    run <filename> <width> <height>
