@@ -11,7 +11,9 @@ wchar_t brailread (int row, int bin);
 
 int main(int argc, char* argv[]) {
     setlocale(LC_CTYPE,"");
-    ifstream input(argv[1], ios::binary); ////////////////////////////////
+    ifstream input(argv[1], ios::binary);
+
+    ////////////////////////////////
     ////     error handling     ////
     ////////////////////////////////
 
