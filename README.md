@@ -43,7 +43,7 @@ Copy the toBraille executable that was created by the makefile to /bin.
 **sudo cp toBraille /bin**  
 
 ## how to use:
-First you have to get an image and make sure it is the size you want (one dot == one pixel). This can be done from the commandline if imagemagick is installed:  
+First you have to get an image and make sure it is the size you want (one dot = one pixel). This can be done from the commandline if imagemagick is installed:  
 **convert [yourimage.png] -resize [wantedpercentage>% [smaller version of your image.png]**  
 
 When you are done with this you need to know its size this can be done on most linux distros using the **file** command.  
