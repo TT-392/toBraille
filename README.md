@@ -47,7 +47,7 @@ First you have to get an image and make sure it is the size you want (one dot = 
 **convert [yourimage.png] -resize [wantedpercentage>% [smaller version of your image.png]**  
 
 When you are done with this you need to know its size this can be done on most linux distros using the **file** command.  
-**convert [smaller version of your image.png]**  
+**file [smaller version of your image.png]**  
 
 When you know the size of the image convert the image to a .mono file this can also be done using imagemagick  
 **convert [smaller version of your image.png] [mono version of your image.mono]**  
